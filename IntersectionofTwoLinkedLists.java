@@ -5,7 +5,7 @@ public class Solution {
         
         while(a!=b){
             a = (a!=null) ? a.next : headB;
-            b = (b!=null) ? b.next : headA;
+            b = (b!=null) ? b.next : headA;  //puneet's tip: find the centre (brute or anything) n keep talking
         }
         return a;
         
