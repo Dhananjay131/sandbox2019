@@ -11,7 +11,7 @@ class Solution {
             Integer i1= (i<ver1.length) ? Integer.parseInt(ver1[i]) : 0;
             Integer i2= (i<ver2.length) ? Integer.parseInt(ver2[i]) : 0;  //store in Integer, must go till higher length array end
                                                                            //1.0.1> 1.0 how to find?
-            res = i1.compareTo(i2);
+            res = i1.compareTo(i2);                                        //imp func >:1, <:-1, else 0
             
             if(res!=0)
                 return res;
