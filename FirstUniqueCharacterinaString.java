@@ -1,6 +1,6 @@
 class Solution {
     public int firstUniqChar(String s) {
-        // slow LinkedHashMap<Character, Integer> tm = new LinkedHashMap<>(); 
+         
         int result = s.length();
         for(char c = 'a'; c <= 'z'; c++){
             int index = s.indexOf(c);
